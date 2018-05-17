@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Justin Wang</title>
+    <link href = "style.css" rel = "stylesheet">
+    <link href = "main.css" rel = "stylesheet">
+    <script src = jquery-3.3.1.min.js></script>
+    <script type = "text/javascript">
+        window.onload = function() {
+            document.getElementById("resumeLink").onclick = function() {
+                $("#main").fadeOut("slow", function() {
+                    window.location.href = "Resume.pdf";
+                })
+                return false;
+            }
+            document.getElementById("githubLink").onclick = function() {
+                $("#main").fadeOut("slow", function() {
+                    window.location.href = "https://github.com/killamocingbird";
+                })
+                return false;
+            }
+            document.getElementById("projectsLink").onclick = function() {
+                $("#main").fadeOut("slow", function() {
+                    window.location.href = "projects";
+                })
+                return false;
+            }
+
+        }
+
+    </script>
+
+</head>
+
+<body>
+<div id = "main" class = "hcenter vcenter mainText">
+    <div class = "title">Justin Wang</div>
+
+    <div class = "links">
+        <a id = "resumeLink" href = "Resume.pdf">Resume</a> &emsp; || &emsp;
+        <a id = "githubLink" href = "https://github.com/killamocingbird">GitHub</a> &emsp; || &emsp;
+        <a id = "projectsLink" href = "projects">Projects</a>
+    </div>
+
+</div>
+
+</body>
+</html>
