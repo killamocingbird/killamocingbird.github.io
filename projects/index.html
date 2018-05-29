@@ -8,7 +8,7 @@
     <script src = "../jquery-3.3.1.min.js"></script>
     <script type = "text/javascript">
         window.onload = function() {
-            if ($(window).width() < 1300) {
+            if ($(window).width() < 1250) {
                 $(".pic").css("display", "none");
             }
             document.getElementById("resumeLink").onclick = function() {
@@ -32,7 +32,7 @@
         };
 
         $(window).resize(function() {
-            if ($(window).width() < 1300) {
+            if ($(window).width() < 1250) {
                 $(".pic").css("display", "none");
             } else {
                 $(".pic").css("display", "inline");
@@ -95,8 +95,8 @@
                         thinking. All problems include a problem statement, and solution coded
                         in Java.
                     </p>
-                    <button type = "button">
-                        <span onclick = "button2click()">View Problems</span>
+                    <button onclick = "button2click()">
+                        <span>View Problems</span>
                     </button>
                 </div>
             </div>
