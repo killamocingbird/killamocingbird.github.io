@@ -3,47 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <title>Justin Wang</title>
-    <link href = "style.css" rel = "stylesheet">
-    <link href = "main.css" rel = "stylesheet">
-    <script src = jquery-3.3.1.min.js></script>
-    <script type = "text/javascript">
-        window.onload = function() {
-            document.getElementById("resumeLink").onclick = function() {
-                $("#main").fadeOut("slow", function() {
-                    window.location.href = "Rsume.pdf";
-                })
-                return false;
-            }
-            document.getElementById("githubLink").onclick = function() {
-                $("#main").fadeOut("slow", function() {
-                    window.location.href = "https://github.com/killamocingbird";
-                })
-                return false;
-            }
-            document.getElementById("projectsLink").onclick = function() {
-                $("#main").fadeOut("slow", function() {
-                    window.location.href = "projects";
-                })
-                return false;
-            }
+    <link href = main.css rel = stylesheet>
+    <link href = menubar.css rel = stylesheet>
 
-        }
-
-    </script>
-
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="fadein.js"></script>
 </head>
-
 <body>
-<div id = "main" class = "hcenter vcenter mainText">
-    <div class = "title">Justin Wang</div>
 
-    <div class = "links">
-        <a id = "resumeLink" href = "Resume.pdf">Resume</a> &emsp; || &emsp;
-        <a id = "githubLink" href = "https://github.com/killamocingbird">GitHub</a> &emsp; || &emsp;
-        <a id = "projectsLink" href = "projects">Projects</a>
-    </div>
-
+<div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
 </div>
+<div class = fullPageContainer style = "background-image: url(background.jpg)">
+    <div class = innerPageContainer>
+        <div>
+            <div style = "color: white; font-family: 'Ostrich Sans Black'; font-size: 120px; text-align: center; margin-top: 10%">
+                Justin Wang
+            </div>
+            <div class = txt style = "color: white; text-align: center">
+                A passionate student of Computer Science and Mathematics
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class = fullPageContainer style = "height: 70%; background-color: ghostwhite">
+    <div class = innerPageContainer style = "padding-top: 7%">
+        <div style = "font-family: 'Ostrich Sans Medium'; font-size: 120px; text-align: center;">
+            Overview
+        </div>
+        <div class = txt style = "margin-left: 5%; margin-right: 5%; text-align: justify">
+            Bends research experience to offer solid skills in programming and simulation design.
+            Incorporates a background in teaching to streamline communication, providing an effective and
+            efficient team environment.
+        </div>
+    </div>
+</section>
+
+<section class = fullPageContainer style = "height: 60%; background-color: white">
+    <div class = innerPageContainer style = "padding-top: 7%">
+        <div style = "font-family: 'Ostrich Sans Medium'; font-size: 120px; text-align: center;">
+            Work Experience
+        </div>
+        <div class = txt style = "margin-left: 5%; margin-right: 5%; text-align: justify">
+
+        </div>
+    </div>
+</section>
 
 </body>
 </html>

@@ -1,57 +1,51 @@
-html {
-    background-attachment: fixed;
-    background-image: url("background2.jpg");
+@font-face {
+    font-family: "Ostrich Sans Black";
+    src: url("fonts/ostrich-sans-master/OstrichSans-Black.otf") format("opentype");
 }
 
-hr {
-    width: 95%;
+@font-face {
+    font-family: "Ostrich Sans Medium";
+    src: url("fonts/ostrich-sans-master/OstrichSans-Medium.otf") format("opentype");
 }
 
-.title {
-    font-size: 4em;
-    text-align: center;
-    font-variant: small-caps;
-}
-
-.links {
-    font-size: 2em;
-    text-align: center;
-    font-style: italic;
+@font-face {
+    font-family: "Archivo Narrow";
+    src: url("fonts/Archivo-Narrow/ArchivoNarrow-Regular.ttf") format("truetype");
 }
 
 
-body {
-    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 1s; /* Firefox < 16 */
-    -o-animation: fadein 1s; /* Opera < 12.1 */
-    animation: fadein 1s;
+body, html {
+    height: 100%;
+    margin: 0;
 }
 
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+.fullPageContainer {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
 }
 
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+.innerPageContainer {
+    padding: 10%;
 }
 
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+.txt {
+    font-family: 'Archivo Narrow';
+    font-size: 30px
 }
 
-/* Internet Explorer */
-@-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+section {
+    opacity: 0;
+
+    transform: translate(0, 20px);
+    transition: all 1s;
 }
 
-/* Opera < 12.1 */
-@-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+section.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.emphasize {
+    color: crimson;
 }
