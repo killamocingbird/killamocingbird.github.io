@@ -5,7 +5,10 @@
     <title>Justin Wang</title>
     <link href = main.css rel = stylesheet>
     <link href = menubar.css rel = stylesheet>
-    <link href = form/form.css rel = stylesheet>
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="fadein.js"></script>
+    <script src="scrollTo.js"></script>
 
 </head>
 <body class>
@@ -15,6 +18,9 @@
         <a href="#Projects">Projects</a>
         <a href="#Contact">Contact</a>
     </div>
+
+    <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+
     <div id = main class = "fin innerPageContainer">
         <div>
             <div style = "color: white; font-family: 'Bodoni MT Condensed'; font-size: 150px; text-align: center;">
@@ -61,37 +67,14 @@
             Contact
         </div>
 
-
-        <form id="ajax-contact" method="post" action="form/mailer.php">
-            <div class="field">
-                <label for="name" class = txt>Name:</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-
-            <div class="field">
-                <label for="email" class = txt>Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-
-            <div class="field">
-                <label for="message" class = txt>Message:</label>
-                <textarea id="message" name="message" required></textarea>
-            </div>
-
-            <span class="field">
-                <button type="submit" class = txt>Send</button>
-            </span>
-            <div class = txt id = form-messages style = "float: right; margin: 2%; margin-right: 5%;"></div>
-        </form>
+        <div class = txt style = "text-align: center; margin: 5%; font-family: 'Bodoni MT'; font-style: italic;">
+            Feel free to contact me for my resume or more information on my projects<br><br>
+            Email : contact@JustinLWang.com
+        </div>
 
     </section>
 
 </div>
-
-<script src="jquery-3.3.1.min.js"></script>
-<script src="form/formApp.js"></script>
-<script src="fadein.js"></script>
-<script src="scrollTo.js"></script>
 
 </body>
 </html>
