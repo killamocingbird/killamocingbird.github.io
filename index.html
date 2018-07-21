@@ -6,7 +6,7 @@
     <link href = main.css rel = stylesheet>
     <link href = menubar.css rel = stylesheet>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
     <script src="fadein.js"></script>
     <script src="scrollTo.js"></script>
 </head>
@@ -22,7 +22,7 @@
     <div id = main class = "fin innerPageContainer">
         <div>
             <div style = "color: white; font-family: 'Bodoni MT Condensed'; font-size: 150px; text-align: center;">
-                Justin Wang
+                Justin L. Wang
             </div>
             <div class = txt style = "color: white; text-align: center; font-family: 'Bodoni MT'">
                 A passionate student of Computer Science and Mathematics
@@ -31,49 +31,30 @@
     </div>
 </div>
 
-<div id = Overview class = fullPageContainer style = "height: 70%; background-color: ghostwhite">
-    <section class = "innerPageContainer" style = "padding-top: 7%">
+<div id = Overview class = fullPageContainer style = "height: 100%; background-color: ghostwhite">
+    <section class = "innerPageContainer" style = "padding-top: 4%">
         <div style = "font-family: 'Ostrich Sans Medium'; font-size: 120px; text-align: center;">
             Overview
         </div>
-        <div class = txt style = "text-align: justify">
-            Bends research experience to offer solid skills in programming and simulation design.
-            Incorporates a background in teaching to streamline communication, providing an effective and
-            efficient team environment.
+        <div class = txt style = "float: left; width: 60%; text-align: justify; margin-top: 2%">
+            I am a senior attending Suncoast Community High School with a strong interest in algorithmic
+            design, and deep learning. I have worked as a researcher at Florida Atlantic University
+            in the Department of Computer Science, offering solid skills in programming and simulation design.
+            I incorporate my background in teaching to streamline communication, and provide an efficient, effective
+            team environment.
         </div>
+        <img src = "ProfilePicture.png" style = "float: right; width: 25%; margin: 2%;">
     </section>
 </div>
 
-<div id = Projects class = fullPageContainer style = "height: auto; background-color: white">
-    <section class = "innerPageContainer" style = "padding-top: 7%">
+<div id = Projects class = fullPageContainer style = "height: 100%; background-color: white">
+    <section class = "innerPageContainer" style = "padding-top: 4%">
         <div style = "font-family: 'Ostrich Sans Medium'; font-size: 120px; text-align: center;">
             Projects
         </div>
-        <hr>
-        <div class = txt style = "font-size: 50px; font-family: 'Bodoni MT Condensed'; text-align: justify; margin: 5%">
-            Medium-Term Forecasting of Eddy Formations in the GoM with a Divide-and-Conquer Machine Learning Approach
-            <div style = "font-size: 40px; margin-right: 5%; text-align: right;">July 2018</div>
-        </div>
-        <div>
-            <img src = projects/DatasetSample.png class = center style = "width: 90%;">
-        </div>
-        <div class = txt style = "text-align: justify; margin: 5%;">
-            Using an RNN and partitioning, we were able to accurately forecast eddy Darwin 12 weeks in advance.
-            Our algorithm was trained a tested on data provided by HYCOM.<br>
-            <br><a class = "inline" href="">Read More</a>
-        </div>
-        <hr>
-        <div class = txt style = "font-size: 50px; font-family: 'Bodoni MT Condensed'; text-align: justify; margin: 5%">
-            A study on automatic detection of IDC breast cancer with Convolutional Neural Networks
-            <div style = "font-size: 40px; margin-right: 5%; text-align: right;">June 2018</div>
-        </div>
-        <div>
-            <img src = projects/CNNFigureV3.png class = center style = "width: 90%;">
-        </div>
-        <div class = txt style = "text-align: justify; margin: 5%; margin-bottom: 0">
-            We trained a tested 4 different CNN architectures to find the most suitable system for
-            automated detection of IDC breast cancer. Our best architecture achieved an accuracy of 89.0%.<br>
-            <br><a class = "inline" href="">Read More</a>
+        <div class = txt style = "text-align: center; margin: 5%; margin-bottom: 0;">
+            <a class = "inline" href="/projects/EddyForecasting">Forecasting of Eddy Formations in the Gulf of Mexico w/ Machine Learning</a><br><br>
+            <a class = "inline" href="#IDCDetection">Automatic Detection of IDC Breast Cancer w/ Convolutional Neural Networks</a>
         </div>
     </section>
 </div>
