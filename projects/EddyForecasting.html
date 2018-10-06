@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Eddy Forecasting</title>
-    <link href = ../main.css rel = stylesheet>
-    <link href = ../menubar.css rel = stylesheet>
+    <link href = ../css/main.css rel = stylesheet>
+    <link href = ../css/menubar.css rel = stylesheet>
+    <link href = ../css/topbtn.css rel = stylesheet>
 
-    <script src="../jquery-3.3.1.min.js"></script>
-    <script src="../fadein.js"></script>
-    <script src="../scrollTo.js"></script>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/fadein.js"></script>
+    <script src="../js/scrollTo.js"></script>
+    <script src="../js/topbtn.js"></script>
 </head>
 <body>
+
+<button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
 
 <div class = fullPageContainer style = "
             background-image: linear-gradient(
                     rgba(60, 60, 60, 0.85),
                     rgba(60, 60, 60, 0.85)
-            ), url('DatasetSample.png'); background-size: cover">
+            ), url('../images/loopcurrent.jpg'); background-size: cover; background-position: right">
     <div class="navbar">
         <a href="../">Main</a>
         <a href="#Overview">Overview</a>
@@ -30,20 +34,30 @@
                 Forecasting of Eddy Formations in the GoM with a Divide-and-Conquer Machine Learning Approach
             </div>
             <div class = txt style = "color: white; text-align: center; font-family: 'Bodoni MT'">
-                <br>Justin L. Wang, Ali K. Ibrahim, Hanqi Zhuang, Ali Muhamah Ali, Laurent Cherubin<br>
-                <br>July, 2018
+                <br>Justin L. Wang, Hanqi Zhuang,  Ali K. Ibrahim, Laurent Cherubin, Ali Muhamah Ali<br>
+                <br>September, 2018
             </div>
         </div>
     </div>
 </div>
 
 <div id = Overview class = fullPageContainer style = "height: 100%; background-color: white">
-    <section class = "innerPageContainer" style = "padding-top: 4%">
+    <section class = "innerPageContainer" style = "padding-top: 4%; padding-bottom: 4%">
         <div style = "font-family: 'Ostrich Sans Medium'; font-size: 120px; text-align: center;">
             Overview
         </div>
-        <div class = txt style = "text-align: center; margin: 5%; margin-bottom: 0;">
-
+        <div class = txt style = "text-align: justify;">
+            <ul>
+                <li>Accurate prediction of GoM LCS is a challenge recently posed by the National Academies of Science,
+                    Engineering and Medicine</li>
+                <br>
+                <li>We propose a novel divide-and-conquer machine learning approach for forecasting of GoM LCS events</li>
+                <br>
+                <li>We use a progressively weighted smoothing function to reduce error propagation between predictions</li>
+                <br>
+                <li>Our model accurately predicted the LCS more than two months and an eddy shedding process 12 weeks in
+                    advance</li>
+            </ul>
         </div>
     </section>
 </div>
