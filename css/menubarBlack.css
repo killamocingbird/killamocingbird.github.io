@@ -1,0 +1,24 @@
+.navbar {
+    overflow: hidden;
+    opacity: 1;
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-family: "Ostrich Sans Medium";
+    font-size: 30px;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #373737;
+    color: #ffffff;
+}
