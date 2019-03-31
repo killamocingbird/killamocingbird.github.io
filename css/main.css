@@ -60,10 +60,10 @@ section.visible {
 a.inline {
     position: relative;
     text-decoration: none;
-    color: #000000;
+    color: darkslateblue;
 }
 a.inline:active {
-    color: #000000;
+    color: darkslateblue;
     text-decoration: none;
 }
 a.inline:after {
