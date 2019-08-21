@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -48,11 +48,11 @@
       <recent name="C:\Users\Justin Wang\Documents\GitHub\killamocingbird.github.io" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Justin Wang\Documents\GitHub\killamocingbird.github.io\yueman\week2graphs" />
+      <recent name="C:\Users\Justin Wang\Documents\GitHub\killamocingbird.github.io\yueman" />
       <recent name="C:\Users\Justin Wang\Documents\GitHub\killamocingbird.github.io\projects\cancer" />
       <recent name="C:\Users\Justin Wang\Documents\GitHub\killamocingbird.github.io\projects\eddy" />
       <recent name="C:\Users\Justin Wang\Documents\GitHub\killamocingbird.github.io\projects\phonemes" />
-      <recent name="C:\Users\Justin Wang\Documents\GitHub\killamocingbird.github.io\images" />
-      <recent name="C:\Users\Justin Wang\Documents\GitHub\killamocingbird.github.io\publications" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -92,7 +92,15 @@
       <workItem from="1546979707487" duration="58000" />
       <workItem from="1554008324690" duration="3333000" />
       <workItem from="1559708957841" duration="1550000" />
-      <workItem from="1565074322413" duration="7782000" />
+      <workItem from="1565074322413" duration="9064000" />
+      <workItem from="1565695614383" duration="191000" />
+      <workItem from="1565798883241" duration="2587000" />
+      <workItem from="1565815059382" duration="866000" />
+      <workItem from="1565868946998" duration="2218000" />
+      <workItem from="1565971075283" duration="4307000" />
+      <workItem from="1566034866624" duration="5255000" />
+      <workItem from="1566242674218" duration="8792000" />
+      <workItem from="1566328192313" duration="2243000" />
     </task>
     <servers />
   </component>
@@ -104,7 +112,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
