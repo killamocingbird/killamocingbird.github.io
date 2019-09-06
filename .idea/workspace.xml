@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08052ac1-e0d2-4c07-a6ac-782fdea0715a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/yueman/four.html" afterDir="false" />
+    <list default="true" id="08052ac1-e0d2-4c07-a6ac-782fdea0715a" name="Default" comment="Added week four link">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yueman/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/yueman/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yueman/three.html" beforeDir="false" afterPath="$PROJECT_DIR$/yueman/three.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yueman/four.html" beforeDir="false" afterPath="$PROJECT_DIR$/yueman/four.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,8 +109,24 @@
       <workItem from="1567013005951" duration="2702000" />
       <workItem from="1567199190798" duration="3605000" />
       <workItem from="1567376246038" duration="1423000" />
-      <workItem from="1567542697651" duration="827000" />
+      <workItem from="1567542697651" duration="1630000" />
+      <workItem from="1567805127827" duration="535000" />
     </task>
+    <task id="LOCAL-00001" summary="Week Four">
+      <created>1567543583693</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567543583693</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added week four link">
+      <created>1567543682711</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567543682711</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,5 +144,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Week Four" />
+    <MESSAGE value="Added week four link" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added week four link" />
   </component>
 </project>
