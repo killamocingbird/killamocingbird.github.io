@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08052ac1-e0d2-4c07-a6ac-782fdea0715a" name="Default" comment="Added week four link" />
+    <list default="true" id="08052ac1-e0d2-4c07-a6ac-782fdea0715a" name="Default" comment="Added week four link">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publications/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/publications/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +113,7 @@
       <workItem from="1567542697651" duration="1630000" />
       <workItem from="1567805127827" duration="1190000" />
       <workItem from="1569879137707" duration="227000" />
+      <workItem from="1589058550871" duration="1145000" />
     </task>
     <task id="LOCAL-00001" summary="Week Four">
       <created>1567543583693</created>
