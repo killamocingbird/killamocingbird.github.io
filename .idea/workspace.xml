@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08052ac1-e0d2-4c07-a6ac-782fdea0715a" name="Default" comment="Added week four link">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publications/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/publications/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="08052ac1-e0d2-4c07-a6ac-782fdea0715a" name="Default" comment="Added week four link" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,23 +36,23 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../battle-code" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Justin Wang\Documents\GitHub\killamocingbird.github.io\css" />
-      <recent name="C:\Users\Justin Wang\Documents\GitHub\killamocingbird.github.io" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Justin Wang\Documents\GitHub\killamocingbird.github.io\yueman\week2graphs" />
       <recent name="C:\Users\Justin Wang\Documents\GitHub\killamocingbird.github.io\yueman" />
       <recent name="C:\Users\Justin Wang\Documents\GitHub\killamocingbird.github.io\projects\cancer" />
       <recent name="C:\Users\Justin Wang\Documents\GitHub\killamocingbird.github.io\projects\eddy" />
       <recent name="C:\Users\Justin Wang\Documents\GitHub\killamocingbird.github.io\projects\phonemes" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Justin Wang\Documents\GitHub\killamocingbird.github.io" />
+      <recent name="C:\Users\Justin Wang\Documents\GitHub\killamocingbird.github.io\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -113,7 +109,7 @@
       <workItem from="1567542697651" duration="1630000" />
       <workItem from="1567805127827" duration="1190000" />
       <workItem from="1569879137707" duration="227000" />
-      <workItem from="1589058550871" duration="1145000" />
+      <workItem from="1589058550871" duration="1202000" />
     </task>
     <task id="LOCAL-00001" summary="Week Four">
       <created>1567543583693</created>
